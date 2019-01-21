@@ -1,0 +1,42 @@
+<html>
+  <head>
+	<title>My First Chrome Extension</title>
+    <meta charset="UTF-8" />
+    <style>
+        body {
+            width: 150px;
+            height: 150px;
+        }
+        .content {
+            position:absolute;
+            left:-9999px
+        }
+        .btnClick{
+            width: 150px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid"><textarea rows="5" type="text" class="content" >Pre IELTS - Dành cho các bạn chưa vững ngữ pháp nền�1.5h/buổi - 3 tháng/khoá - 4.500.000/khoá
+            
+Hello IELTS (4.0-5.5) - Dành cho các bạn đã có căn bản ngữ pháp và mới làm quen với IELTS
+2h/buổi - 3 tháng/khoá - 6.000.000/khoá
+
+Road to IELTS (5.5-6.5) - Dành cho các bạn đã học qua IELTS và muốn đạt target ở mức 6.0-6.5
+2h/buổi - 3 tháng/khoá - 7.000.000/khoá
+
+Intensive IELTS (6.5-7.0) - Lớp luyện thi Writing và Speaking, dành cho các bạn muốn nâng bandscore lên mức 6.5+
+2h/buổi - 6 tuần/khoá - 5.000.000/khoá</textarea>
+        <textarea rows="5" type="text" class="content" >Bên mình không cam kết đầu ra ha bạn. HP ko phải là trung tâm để phải cam kết đầu ra nhằm chốt học viên.
+                Thầy cô có dặn mình khá kỹ về vấn đề này, và tuyệt đối là không cam kết.
+                
+                Bạn có thể đọc thêm bài viết của thầy Phúc về chuyện cam kết đầu ra để hiểu thêm về quan niệm của thầy cô ha: http://bit.ly/2DjCgSp</textarea>
+        <button class="btnClick" name="ThongTinLop">Thông tin các lớp</button>
+        <button class="btnClick" name="CamKet">Cam kết đầu ra?</button>
+        <div id="demo">Hello World!</div>
+    </div>
+
+    <script src="popup.js">
+    </script>
+  </body>
+</html>
